@@ -1,0 +1,7 @@
+html, body {color:#FFF; width: 100%; height: 100%; margin: 0; padding: 0; background-color: #000;}
+.headerbox {background-color: #456; padding: 2em; margin: 0em 0em 2em 0em;}
+h1 {text-align: center; margin: 0; padding: 0;}
+.inputbox{background-color: #222; margin: 1em 0em; padding: 2em 0em; text-align: center;}
+.inputbox input {text-align: center; font-size: 5em;}
+.resultbox{background-color: #222; margin: 1em 0em; padding: 2em 0em; text-align:center;}
+.versionbox{background-color: #222; margin: 1em 0em; padding: 2em 0em; text-align:center;}

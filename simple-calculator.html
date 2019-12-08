@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Simple calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="calculator.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<div class="headerbox">
+		<h1>SIMPLE CALCULATOR</h1>
+	</div>
+	<div class="inputbox">
+		<input type="text" onchange="calculate(this.value)">
+	</div>
+	<div class="resultbox">
+		<h2>Result:</h2>
+		<span id="result"></span>
+	</div>
+	<div class="versionbox">
+		<h2>Version: <span id="version"></span></h2>
+		
+	</div>
+
+	<script>
+		showVersion();
+	</script>
+</body>
+</html>
